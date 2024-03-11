@@ -10,5 +10,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-calc';
+  title = 'asmr-ang-calculator';
+
+  calValue: number = 0;
+  funcT: any = 'NoFunction';
 }
+
